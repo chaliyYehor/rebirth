@@ -293,7 +293,7 @@ body {
 
 		z-index: -1;
 
-		background-image: url(../images/underscore.png);
+		background-image: url(images/underscore.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
@@ -348,27 +348,27 @@ body {
 }
 
 .first-img {
-	background-image: url(../images/slider-photo1.jpg);
+	background-image: url(images/slider-photo1.jpg);
 }
 
 .second-img {
-	background-image: url(../images/slider-photo2.jpg);
+	background-image: url(images/slider-photo2.jpg);
 }
 
 .third-img {
-	background-image: url(../images/slider-photo3.jpg);
+	background-image: url(images/slider-photo3.jpg);
 }
 
 .fourth-img {
-	background-image: url(../images/slider-photo4.jpg);
+	background-image: url(images/slider-photo4.jpg);
 }
 
 .fifth-img {
-	background-image: url(../images/slider-photo5.jpg);
+	background-image: url(images/slider-photo5.jpg);
 }
 
 .sixth-img {
-	background-image: url(../images/slider-photo6.jpg);
+	background-image: url(images/slider-photo6.jpg);
 }
 
 .nav-item > a.on-page, .nav-item > button.on-page {
