@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ua" style="scroll-behavior: smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Розстріляне відродження</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link rel="stylesheet" href="styles/media.css" />
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+	</head>
+	<body>
+		<div class="background">
+			<div class="first-img bg-img active"></div>
+			<div class="second-img bg-img"></div>
+			<div class="third-img bg-img"></div>
+			<div class="fourth-img bg-img"></div>
+			<div class="fifth-img bg-img"></div>
+			<div class="sixth-img bg-img"></div>
+		</div>
+
+		<header class="header">
+			<section class="mobile">
+				<div class="navigation-lining">
+					<button class="toggle-menu-btn" type="button">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<
+							<path
+								d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+							/>
+						</svg>
+					</button>
+					<div class="logo">
+						<a href="index.html"><img src="images/logo-img.png" alt="logo" /></a>
+					</div>
+				</div>
+
+				<nav class="navigation-mobile">
+					<ul class="nav-list-mobile">
+						<li class="nav-item mobile">
+							<a href="index.html" class="on-page">Головна</a>
+						</li>
+						<li class="nav-item mobile opening">
+							<a href="#" onclick="event.preventDefault();"
+								>Письменники<span class="drow-down-arrow">&#8250;</span></a
+							>
+							<ul class="drop-down-list first">
+								<li><a href="other/mykola.html">Микола Хвильовий</a></li>
+								<li><a href="other/kulish.html">Микола Куліш</a></li>
+								<li><a href="other/valerian.html">Валер'ян Підмогильний</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mobile opening">
+							<a href="#" onclick="event.preventDefault();"
+								>Режисери<span class="drow-down-arrow">&#8250;</span></a
+							>
+							<ul class="drop-down-list second mobile-drop-second">
+								<li><a href="#">first writer</a></li>
+								<li><a href="#">second writer</a></li>
+								<li><a href="#">third writer</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mobile opening">
+							<a href="#" onclick="event.preventDefault();"
+								>Художники<span class="drow-down-arrow">&#8250;</span></a
+							>
+							<ul class="drop-down-list third mobile-drop-third">
+								<li><a href="#">first writer</a></li>
+								<li><a href="#">second writer</a></li>
+								<li><a href="#">third writer</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mobile opening">
+							<a href="#" onclick="event.preventDefault();"
+								>Політичні діячі<span class="drow-down-arrow">&#8250;</span></a
+							>
+							<ul class="drop-down-list last">
+								<li><a href="#">first writer</a></li>
+								<li><a href="#">second writer</a></li>
+								<li><a href="#">third writer</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mobile"><a href="#">Контакти</a></li>
+					</ul>
+				</nav>
+			</section>
+
+			<nav class="navigation desktop">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo-img.png" alt="" /></a>
+				</div>
+
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a
+							href="index.html"
+							onclick="event.preventDefault();"
+							class="on-page"
+							>Головна</a
+						>
+					</li>
+					<li class="nav-item opening">
+						<a href="#" onclick="event.preventDefault();"
+							>Письменники<span class="drow-down-arrow">&#8250;</span></a
+						>
+						<ul class="drop-down-list first">
+							<li><a href="other/mykola.html">Микола Хвильовий</a></li>
+							<li><a href="other/kulish.html">Микола Куліш</a></li>
+							<li><a href="other/valerian.html">Валер'ян Підмогильний</a></li>
+						</ul>
+					</li>
+					<li class="nav-item opening">
+						<a href="#" onclick="event.preventDefault();"
+							>Режисери<span class="drow-down-arrow">&#8250;</span></a
+						>
+						<ul class="drop-down-list second">
+							<li><a href="#">first writer</a></li>
+							<li><a href="#">second writer</a></li>
+							<li><a href="#">third writer</a></li>
+						</ul>
+					</li>
+					<li class="nav-item opening">
+						<a href="#" onclick="event.preventDefault();"
+							>Художники<span class="drow-down-arrow">&#8250;</span></a
+						>
+						<ul class="drop-down-list third">
+							<li><a href="#">first writer</a></li>
+							<li><a href="#">second writer</a></li>
+							<li><a href="#">third writer</a></li>
+						</ul>
+					</li>
+					<li class="nav-item opening">
+						<a href="#" onclick="event.preventDefault();"
+							>Політичні діячі<span class="drow-down-arrow">&#8250;</span></a
+						>
+						<ul class="drop-down-list last">
+							<li><a href="#">first writer</a></li>
+							<li><a href="#">second writer</a></li>
+							<li><a href="#">third writer</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a href="#">Контакти</a></li>
+				</ul>
+			</nav>
+
+			<section class="heading">
+				<h1 class="main-heading one">Розстріляне відродження</h1>
+				<h1 class="main-heading two">
+					<span class="underscore">чорна</span> сторінка історії
+				</h1>
+				<h1 class="main-heading three">української інтелігенції</h1>
+			</section>
+		</header>
+		<main>
+			<section class="paragraphs">
+				<p>
+					Україна – земля, щедро зрошена <b>кров’ю</b> її синів і дочок. Кожен
+					клаптик її чорнозему пам’ятає стогін козацьких <br />
+					шабель, плач селянських хат, попіл спалених міст. Її історія – це не
+					лише літопис перемог, а й хроніка незліченних поразок, гірких втрат,
+					пекучого болю.
+				</p>
+
+				<p>
+					Століттями український народ <b>боровся</b> за право на власну землю,
+					мову, культуру. Від княжих дружин до січових стрільців, від кобзарів
+					до поетів-дисидентів – кожен вкладав свою цеглину у фундамент
+					незалежності. Праця їхня була невтомна, а жертва – безмежна.
+				</p>
+
+				<p>
+					<b>Розстріляне відродження</b> – лише одна з чорних сторінок цієї
+					історії. Це був період, коли радянська влада, намагаючись зламати дух
+					нації, знищила цвіт української інтелігенції. Поети, письменники,
+					художники, науковці – їхні голоси замовкли назавжди. Це була жорстока,
+					спланована акція, спрямована на винищення національної ідентичності.
+				</p>
+
+				<p>
+					І все ж, попри всі випробування, Україна вистояла. Її дух не зламався,
+					її пісня не змовкла. Кожен, хто боровся за її волю, кожен, хто творив
+					її культуру, кожен, хто працював на її землі, – вони
+					<b>не зникли безслідно</b>. Їхні імена та їхні справи живуть у пам’яті
+					народу, у піснях та легендах, у вишитих рушниках та розписаних
+					писанках
+				</p>
+
+				<p>
+					Ми повинні пам’ятати про тих, хто віддав своє життя за Україну. Їхня
+					жертва – це не лише минуле, а й заповіт для майбутніх поколінь. Ми
+					повинні <b>берегти</b> нашу історію, нашу культуру, нашу мову, бо це –
+					наша зброя, наша сила, наша ідентичність.
+				</p>
+
+				<p>
+					Наш сайт – це не просто збірка фактів про «Розстріляне відродження».
+					Це – <b>голос пам'яті</b>, що прагне розвіяти туман забуття, яким
+					намагалися оповити трагедію цілого покоління українських митців
+				</p>
+
+				<p>
+					Ми хочемо, щоб кожен, хто відвідає наш сайт, відчув
+					<b>біль втрати</b>, але водночас – <b>велич їхнього таланту</b>. Ми
+					прагнемо, щоб імена Миколи Хвильового, Леся Курбаса, Валер'яна
+					Підмогильного та багатьох інших не стали лише рядками в підручниках, а
+					ожили в серцях сучасників.
+				</p>
+
+				<p>
+					Наша мета – не лише розповісти про минуле, але й застерегти від
+					повторення помилок. Ми віримо, що знання про «Розстріляне відродження»
+					– це щеплення від байдужості, від знецінення культури, від
+					тоталітарного зла
+				</p>
+
+				<p>
+					Ми прагнемо, щоб пам'ять про «Розстріляне відродження» стала не лише
+					скорботним спогадом, але й джерелом натхнення для нових поколінь
+					українців. Ми віримо, що їхній голос, обірваний кулею, має звучати
+					голосно й сьогодні, нагадуючи нам про <b>ціну свободи</b> та
+					<b>важливість збереження культурної спадщини</b>.
+				</p>
+			</section>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>

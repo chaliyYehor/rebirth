@@ -1,0 +1,229 @@
+@media (max-width: 1600px) {
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+}
+
+@media (max-width: 1220px) {
+	.main-heading {
+		font-size: 62px;
+	}
+
+	.underscore::after{
+		width: 300px;
+		right: -40%;
+	}
+}
+
+@media (max-width: 950px) {
+	.main-heading {
+		font-size: 48px;
+	}
+
+	.underscore::after{
+		width: 230px;
+		right: -35%;
+	}
+
+	.under-image-text {
+		font-size: 48px !important;
+	}
+}
+
+@media (max-width: 790px) {
+	.main-heading {
+		font-size: 38px;
+	}
+
+	.underscore::after{
+		width: 200px;
+		right: -40%;
+	}
+
+	.under-image-text {
+		font-size: 24px;
+	}
+
+	.under-image-text {
+		font-size: 36px !important;
+	}
+}
+
+@media (max-width: 630px) {
+	.main-heading {
+		font-size: 32px;
+	}
+
+	.underscore::after{
+		width: 170px;
+		right: -40%;
+	}
+}
+
+@media (max-width: 500px) {
+	.main-heading {
+		font-size: 24px;
+	}
+
+	.underscore::after{
+		width: 120px;
+		right: -40%;
+	}
+
+	.paragraphs p {
+		font-size: 16px;
+	}
+
+	.under-image-text {
+		font-size: 28px !important;
+	}
+}
+
+@media (max-width: 400px) {
+	.logo img{
+		width: 100%;
+	}
+
+	.logo {
+		width: 60%;
+	}
+
+	.under-image-text {
+		font-size: 22px !important;
+	}
+}
+
+@media (max-width: 345px) {
+	.heading {
+		padding: 0 8px;
+	}
+
+	.navigation-lining {
+		height: 80px;
+	}
+
+	.navigation-mobile {
+		top: 75px;
+	}
+
+	.under-image-text {
+		font-size: 18px !important;
+	}
+}
+
+
+/* writers */
+
+@media (max-width: 1530px) {
+	.general h1 {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 1270px) {
+	.general h1 {
+		font-size: 4rem;
+	}
+
+	.general p {
+		font-size: 3rem;
+	}
+
+	.main-info {
+		grid-template-columns: 1fr;
+	}
+
+	.quote {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 780px) {
+	.quote {
+		font-size: 34px;
+	}
+
+	.general h1 {
+		font-size: 3rem;
+	}
+
+	.general p {
+		font-size: 2.5rem;
+	}
+
+	.info p {
+		font-size: 28px;
+	}
+
+	.info h2 {
+		font-size: 46px;
+	}
+
+	footer {
+		height: 80px;
+	}
+
+	.to-top svg {
+		height: 50px;
+	}
+}
+
+@media (max-width: 540px) {
+	.general img {
+		width: 85%;
+	}
+
+	.general h1 {
+		font-size: 2.6rem;
+	}
+
+	.general p {
+		font-size: 2.2rem;
+	}
+
+	.info h2 {
+		font-size: 38px;
+	}
+}
+
+@media (max-width: 442px) {
+	.general h1 {
+		font-size: 2.2rem;
+	}
+
+	.general p {
+		font-size: 2rem;
+	}
+
+	.quote {
+		font-size: 28px;
+	}
+
+	.info h2 {
+		font-size: 28px;
+	}
+
+	.info p {
+		text-align: left;
+
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 375px) {
+	.general h1 {
+		font-size: 2rem;
+	}
+
+	.general p {
+		font-size: 1.5rem;
+	}
+
+	.quote {
+		font-size: 24px;
+	}
+}
