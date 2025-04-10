@@ -295,7 +295,7 @@ body {
 
 		z-index: -1;
 
-		background-image: url(images/underscore.png);
+		background-image: url(underscore.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
