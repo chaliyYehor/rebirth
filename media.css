@@ -115,6 +115,16 @@
 	}
 }
 
+@media (max-width: 320px) {
+	.main-heading {
+		font-size: 20px;
+	}
+
+	.underscore::after {
+		width: 100px;
+		right: -30%;
+	}
+}
 
 /* writers */
 
