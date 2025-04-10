@@ -126,6 +126,12 @@
 	}
 }
 
+@media (max-width: 267px) {
+	.main-heading {
+		font-size: 18px;
+	}
+}
+
 /* writers */
 
 @media (max-width: 1530px) {
