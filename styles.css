@@ -283,22 +283,23 @@ body {
 }
 .underscore {
 	position: relative;
-	&::after {
-		content: '';
-		display: block;
-		width: 400px;
-		height: 90px;
+}
 
-		position: absolute;
-		right: -56%;
-		top: 40%;
+.underscore::after {
+	content: '';
+	display: block;
+	width: 400px;
+	height: 90px;
 
-		z-index: -1;
+	position: absolute;
+	right: -56%;
+	top: 40%;
 
-		background-image: url(underscore.png);
-		background-size: contain;
-		background-repeat: no-repeat;
-	}
+	z-index: -1;
+
+	background-image: url(images/underscore.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .paragraphs {
