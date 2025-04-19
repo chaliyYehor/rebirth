@@ -483,6 +483,10 @@ body {
 	margin: 0 !important;
 }
 
+.lessWide {
+	max-width: 1000px;
+}
+
 footer {
 	height: 200px;
 
