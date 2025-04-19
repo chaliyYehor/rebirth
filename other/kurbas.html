@@ -3,35 +3,98 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+		<link
+			rel="shortcut icon"
+			href="../images/favicon.png"
+			type="image/x-icon"
+		/>
 		<title>Лесь Курбас</title>
 		<link rel="stylesheet" href="../styles.css" />
 		<link rel="stylesheet" href="../media.css" />
 	</head>
-	<body>
-		<section class="mobile">
-			<div class="navigation-lining">
-				<button class="toggle-menu-btn" type="button">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-						<
-						<path
-							d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
-						/>
-					</svg>
-				</button>
+	<body style="background-color: white">
+		<header class="header">
+			<section class="mobile">
+				<div class="navigation-lining">
+					<button class="toggle-menu-btn" type="button">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<
+							<path
+								d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+							/>
+						</svg>
+					</button>
+					<div class="logo">
+						<a href="../index.html"
+							><img src="../images/logo-img.png" alt=""
+						/></a>
+					</div>
+				</div>
+
+				<nav class="navigation-mobile">
+					<ul class="nav-list-mobile">
+						<li class="nav-item mobile">
+							<a href="../index.html">Головна</a>
+						</li>
+						<li class="nav-item mobile opening">
+							<a href="#" onclick="event.preventDefault();" class="on-page"
+								>Письменники<span class="drow-down-arrow">&#8250;</span></a
+							>
+							<ul class="drop-down-list first">
+								<li><a href="mykola.html">Микола Хвильовий</a></li>
+								<li><a href="kulish.html">Микола Куліш</a></li>
+								<li><a href="valerian.html">Валер'ян Підмогильний</a></li>
+								<li><a href="pluzhnyk.html">Євген Плужник</a></li>
+								<li><a href="zerov.html">Микола Зеров</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mobile opening">
+							<a href="#" onclick="event.preventDefault();"
+								>Режисери<span class="drow-down-arrow">&#8250;</span></a
+							>
+							<ul class="drop-down-list second mobile-drop-second">
+								<li><a href="kurbas.html">Лесь Курбас</a></li>
+								<li><a href="kavaledridze.html">Іван Кавалерідзе</a></li>
+								<li><a href="dovzhenko.html">Олександр Довженко</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mobile opening">
+							<a href="#" onclick="event.preventDefault();"
+								>Художники<span class="drow-down-arrow">&#8250;</span></a
+							>
+							<ul class="drop-down-list third mobile-drop-third">
+								<li><a href="#">first writer</a></li>
+								<li><a href="#">second writer</a></li>
+								<li><a href="#">third writer</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mobile opening">
+							<a href="#" onclick="event.preventDefault();"
+								>Політичні діячі<span class="drow-down-arrow">&#8250;</span></a
+							>
+							<ul class="drop-down-list last">
+								<li><a href="#">first writer</a></li>
+								<li><a href="#">second writer</a></li>
+								<li><a href="#">third writer</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mobile"><a href="#">Контакти</a></li>
+					</ul>
+				</nav>
+			</section>
+
+			<nav class="navigation desktop">
 				<div class="logo">
 					<a href="../index.html"
 						><img src="../images/logo-img.png" alt=""
 					/></a>
 				</div>
-			</div>
 
-			<nav class="navigation-mobile">
-				<ul class="nav-list-mobile">
-					<li class="nav-item mobile">
+				<ul class="nav-list">
+					<li class="nav-item">
 						<a href="../index.html">Головна</a>
 					</li>
-					<li class="nav-item mobile opening">
+					<li class="nav-item opening">
 						<a href="#" onclick="event.preventDefault();" class="on-page"
 							>Письменники<span class="drow-down-arrow">&#8250;</span></a
 						>
@@ -43,27 +106,27 @@
 							<li><a href="zerov.html">Микола Зеров</a></li>
 						</ul>
 					</li>
-					<li class="nav-item mobile opening">
+					<li class="nav-item opening">
 						<a href="#" onclick="event.preventDefault();"
 							>Режисери<span class="drow-down-arrow">&#8250;</span></a
 						>
-						<ul class="drop-down-list second mobile-drop-second">
-							<li><a href="kurbas.html">Лесь Курбас</a></li>
-							<li><a href="kavaledridze.html">Іван Кавалерідзе</a></li>
-							<li><a href="dovzhenko.html">Олександр Довженко</a></li>
+						<ul class="drop-down-list second">
+							<li><a href="#">Лесь Курбас</a></li>
+							<li><a href="#">Іван Кавалерідзе</a></li>
+							<li><a href="#">Олександр Довженко</a></li>
 						</ul>
 					</li>
-					<li class="nav-item mobile opening">
+					<li class="nav-item opening">
 						<a href="#" onclick="event.preventDefault();"
 							>Художники<span class="drow-down-arrow">&#8250;</span></a
 						>
-						<ul class="drop-down-list third mobile-drop-third">
+						<ul class="drop-down-list third">
 							<li><a href="#">first writer</a></li>
 							<li><a href="#">second writer</a></li>
 							<li><a href="#">third writer</a></li>
 						</ul>
 					</li>
-					<li class="nav-item mobile opening">
+					<li class="nav-item opening">
 						<a href="#" onclick="event.preventDefault();"
 							>Політичні діячі<span class="drow-down-arrow">&#8250;</span></a
 						>
@@ -73,65 +136,23 @@
 							<li><a href="#">third writer</a></li>
 						</ul>
 					</li>
-					<li class="nav-item mobile"><a href="#">Контакти</a></li>
+					<li class="nav-item"><a href="#">Контакти</a></li>
 				</ul>
 			</nav>
-		</section>
 
-		<nav class="navigation desktop">
-			<div class="logo">
-				<a href="../index.html"><img src="../images/logo-img.png" alt="" /></a>
-			</div>
-
-			<ul class="nav-list">
-				<li class="nav-item">
-					<a href="../index.html">Головна</a>
-				</li>
-				<li class="nav-item opening">
-					<a href="#" onclick="event.preventDefault();" class="on-page"
-						>Письменники<span class="drow-down-arrow">&#8250;</span></a
-					>
-					<ul class="drop-down-list first">
-						<li><a href="mykola.html">Микола Хвильовий</a></li>
-						<li><a href="kulish.html">Микола Куліш</a></li>
-						<li><a href="valerian.html">Валер'ян Підмогильний</a></li>
-						<li><a href="pluzhnyk.html">Євген Плужник</a></li>
-						<li><a href="zerov.html">Микола Зеров</a></li>
-					</ul>
-				</li>
-				<li class="nav-item opening">
-					<a href="#" onclick="event.preventDefault();"
-						>Режисери<span class="drow-down-arrow">&#8250;</span></a
-					>
-					<ul class="drop-down-list second">
-						<li><a href="#">Лесь Курбас</a></li>
-						<li><a href="#">Іван Кавалерідзе</a></li>
-						<li><a href="#">Олександр Довженко</a></li>
-					</ul>
-				</li>
-				<li class="nav-item opening">
-					<a href="#" onclick="event.preventDefault();"
-						>Художники<span class="drow-down-arrow">&#8250;</span></a
-					>
-					<ul class="drop-down-list third">
-						<li><a href="#">first writer</a></li>
-						<li><a href="#">second writer</a></li>
-						<li><a href="#">third writer</a></li>
-					</ul>
-				</li>
-				<li class="nav-item opening">
-					<a href="#" onclick="event.preventDefault();"
-						>Політичні діячі<span class="drow-down-arrow">&#8250;</span></a
-					>
-					<ul class="drop-down-list last">
-						<li><a href="#">first writer</a></li>
-						<li><a href="#">second writer</a></li>
-						<li><a href="#">third writer</a></li>
-					</ul>
-				</li>
-				<li class="nav-item"><a href="#">Контакти</a></li>
-			</ul>
-		</nav>
+			<section class="main-info">
+				<div class="general">
+					<h1>Лесь Курбас</h1>
+					<img src="../images/kurbas.png" alt="" />
+					<p>1887-1937</p>
+				</div>
+				<div class="quote" style='margin-left: 0px;'>
+					<p>
+						«Театр має бути таким, яким суспільство має бути завтра.»
+					</p>
+				</div>
+			</section>
+		</header>
 
 		<script src="kurbas.js"></script>
 	</body>
