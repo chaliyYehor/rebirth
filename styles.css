@@ -485,6 +485,8 @@ body {
 	font-family: 'Courier New', Courier, monospace;
 
 	margin: 0 !important;
+
+	text-align: center;
 }
 
 .lessWide {
