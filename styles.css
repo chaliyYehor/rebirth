@@ -589,3 +589,13 @@ footer {
 .period p {
 	color: black;
 }
+
+.artists {
+	align-items: baseline;
+}
+
+.artists img {
+	height: 500px;
+
+	object-fit: cover;
+}
