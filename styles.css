@@ -573,3 +573,19 @@ footer {
 .centered-info img {
 	width: 80%;
 }
+
+.bg-gradient {
+	background-image: linear-gradient(to bottom, #282828 45%, #3a3a3a 65%, #686868 80%  ,#787878 85%  ,#fff);
+
+	position: absolute;
+	top: 113px;
+	left: 0;
+
+	z-index: -5;
+
+	width: 100vw;
+}
+
+.period p {
+	color: black;
+}
